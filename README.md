@@ -3,6 +3,7 @@ Sensibo test implemented using MVVM and Reactive Cocoa
 
 ## Test description
 Roy Razon 7/22/16, 14:15 on skype
+
 App should have a login screen allowing to user to specify email and password. Once logged in, the app will show a screen with the list of devices for that user, with the name and on/off state for each device, and a button to toggle the on/off state. Tapping the button will send an actual command to change the power state of the device.
 
 You can deduce the API from the existing project. You can even reuse some of the code where you think it's appropriate.
