@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139DF339627F285EA35D0451 /* libPods-ReactiveSensiboTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B98E9AE6313BF2F578F34B /* libPods-ReactiveSensiboTests.a */; };
+		50B658055C2801DAEC100372 /* libPods-ReactiveSensibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8A7A5AD7646AB5F04DA9FC /* libPods-ReactiveSensibo.a */; };
+		6E1FFE541D43A51C001AB186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE531D43A51C001AB186 /* main.m */; };
+		6E1FFE571D43A51C001AB186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE561D43A51C001AB186 /* AppDelegate.m */; };
+		6E1FFE5D1D43A51C001AB186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1FFE5B1D43A51C001AB186 /* Main.storyboard */; };
+		6E1FFE5F1D43A51C001AB186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1FFE5E1D43A51C001AB186 /* Assets.xcassets */; };
+		6E1FFE621D43A51C001AB186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1FFE601D43A51C001AB186 /* LaunchScreen.storyboard */; };
+		6E1FFE7F1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE7E1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.m */; };
+		6E1FFE871D43F902001AB186 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE831D43F902001AB186 /* LoginViewController.m */; };
+		6E1FFE881D43F902001AB186 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE851D43F902001AB186 /* LoginModel.m */; };
+		6E1FFE911D440F82001AB186 /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE901D440F82001AB186 /* NetworkingManager.m */; };
+		6E1FFE961D441609001AB186 /* SUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE951D441609001AB186 /* SUtils.m */; };
+		6E1FFE9A1D441664001AB186 /* NSString+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE991D441664001AB186 /* NSString+EmailValidation.m */; };
+		6E1FFE9E1D44179C001AB186 /* NSDictionary+ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFE9D1D44179C001AB186 /* NSDictionary+ResponseObject.m */; };
+		6E1FFEA31D442890001AB186 /* PodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEA21D442890001AB186 /* PodsTableViewController.m */; };
+		6E1FFEA71D4434D4001AB186 /* PodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEA61D4434D4001AB186 /* PodsModel.m */; };
+		6E1FFEAA1D443686001AB186 /* UIRefreshControl+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEA91D443686001AB186 /* UIRefreshControl+RACCommandSupport.m */; };
+		6E1FFEAD1D45BDE2001AB186 /* PodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEAC1D45BDE2001AB186 /* PodTableViewCell.m */; };
+		6E1FFEB41D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEB31D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.m */; };
+		6E1FFEB81D45CD56001AB186 /* RLMObject+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FFEB71D45CD56001AB186 /* RLMObject+Background.m */; };
+		6E3F960B1D463956005D2F42 /* LoginModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F960A1D463956005D2F42 /* LoginModelTests.m */; };
+		6E85F2B71D464704007BEE9C /* PodsModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85F2B61D464704007BEE9C /* PodsModelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3F960D1D463956005D2F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1FFE471D43A51C001AB186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E1FFE4E1D43A51C001AB186;
+			remoteInfo = ReactiveSensibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174B2768252570F9FFE22BBD /* Pods-ReactiveSensibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensibo/Pods-ReactiveSensibo.release.xcconfig"; sourceTree = "<group>"; };
+		1B8A7A5AD7646AB5F04DA9FC /* libPods-ReactiveSensibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveSensibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B98E9AE6313BF2F578F34B /* libPods-ReactiveSensiboTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveSensiboTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601458288BB4CB240A48B421 /* Pods-ReactiveSensiboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensiboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensiboTests/Pods-ReactiveSensiboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1FFE4F1D43A51C001AB186 /* RSensibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSensibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1FFE531D43A51C001AB186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E1FFE551D43A51C001AB186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E1FFE561D43A51C001AB186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E1FFE5C1D43A51C001AB186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1FFE5E1D43A51C001AB186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E1FFE611D43A51C001AB186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E1FFE631D43A51C001AB186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1FFE7B1D43CC18001AB186 /* ReactiveSensibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveSensibo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		6E1FFE7D1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+RACKeyboardSupport.h"; sourceTree = "<group>"; };
+		6E1FFE7E1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RACKeyboardSupport.m"; sourceTree = "<group>"; };
+		6E1FFE821D43F902001AB186 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6E1FFE831D43F902001AB186 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6E1FFE841D43F902001AB186 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		6E1FFE851D43F902001AB186 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		6E1FFE8E1D440E64001AB186 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6E1FFE8F1D440F82001AB186 /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		6E1FFE901D440F82001AB186 /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
+		6E1FFE941D441609001AB186 /* SUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUtils.h; sourceTree = "<group>"; };
+		6E1FFE951D441609001AB186 /* SUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUtils.m; sourceTree = "<group>"; };
+		6E1FFE981D441664001AB186 /* NSString+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailValidation.h"; sourceTree = "<group>"; };
+		6E1FFE991D441664001AB186 /* NSString+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailValidation.m"; sourceTree = "<group>"; };
+		6E1FFE9C1D44179C001AB186 /* NSDictionary+ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ResponseObject.h"; sourceTree = "<group>"; };
+		6E1FFE9D1D44179C001AB186 /* NSDictionary+ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ResponseObject.m"; sourceTree = "<group>"; };
+		6E1FFEA11D442890001AB186 /* PodsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsTableViewController.h; sourceTree = "<group>"; };
+		6E1FFEA21D442890001AB186 /* PodsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodsTableViewController.m; sourceTree = "<group>"; };
+		6E1FFEA51D4434D4001AB186 /* PodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsModel.h; sourceTree = "<group>"; };
+		6E1FFEA61D4434D4001AB186 /* PodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodsModel.m; sourceTree = "<group>"; };
+		6E1FFEA81D443686001AB186 /* UIRefreshControl+RACCommandSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+RACCommandSupport.h"; sourceTree = "<group>"; };
+		6E1FFEA91D443686001AB186 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
+		6E1FFEAB1D45BDE2001AB186 /* PodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodTableViewCell.h; sourceTree = "<group>"; };
+		6E1FFEAC1D45BDE2001AB186 /* PodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodTableViewCell.m; sourceTree = "<group>"; };
+		6E1FFEB21D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMArray+LongestCommonSubsequence.h"; sourceTree = "<group>"; };
+		6E1FFEB31D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMArray+LongestCommonSubsequence.m"; sourceTree = "<group>"; };
+		6E1FFEB61D45CD56001AB186 /* RLMObject+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Background.h"; sourceTree = "<group>"; };
+		6E1FFEB71D45CD56001AB186 /* RLMObject+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Background.m"; sourceTree = "<group>"; };
+		6E3F96081D463956005D2F42 /* ReactiveSensiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSensiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3F960A1D463956005D2F42 /* LoginModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModelTests.m; sourceTree = "<group>"; };
+		6E3F960C1D463956005D2F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E85F2B61D464704007BEE9C /* PodsModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodsModelTests.m; sourceTree = "<group>"; };
+		7C5854DA75E283CF9142E403 /* Pods-ReactiveSensiboTests2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensiboTests2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensiboTests2/Pods-ReactiveSensiboTests2.release.xcconfig"; sourceTree = "<group>"; };
+		875274BF5D1581AE720DF259 /* Pods-ReactiveSensibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensibo/Pods-ReactiveSensibo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4A4394A08C3655111195F7 /* Pods-ReactiveSensiboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensiboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensiboTests/Pods-ReactiveSensiboTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0B221796C1B18BCCC5A7983 /* libPods-ReactiveSensiboTests2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveSensiboTests2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1622EDC047EE2D9B7661BDA /* Pods-ReactiveSensiboTests2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSensiboTests2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSensiboTests2/Pods-ReactiveSensiboTests2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1FFE4C1D43A51C001AB186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B658055C2801DAEC100372 /* libPods-ReactiveSensibo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3F96051D463956005D2F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139DF339627F285EA35D0451 /* libPods-ReactiveSensiboTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24081BB227E64E1D47C168F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				875274BF5D1581AE720DF259 /* Pods-ReactiveSensibo.debug.xcconfig */,
+				174B2768252570F9FFE22BBD /* Pods-ReactiveSensibo.release.xcconfig */,
+				D1622EDC047EE2D9B7661BDA /* Pods-ReactiveSensiboTests2.debug.xcconfig */,
+				7C5854DA75E283CF9142E403 /* Pods-ReactiveSensiboTests2.release.xcconfig */,
+				601458288BB4CB240A48B421 /* Pods-ReactiveSensiboTests.debug.xcconfig */,
+				9A4A4394A08C3655111195F7 /* Pods-ReactiveSensiboTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E1FFE461D43A51C001AB186 = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE511D43A51C001AB186 /* ReactiveSensibo */,
+				6E3F96091D463956005D2F42 /* ReactiveSensiboTests */,
+				6E1FFE501D43A51C001AB186 /* Products */,
+				24081BB227E64E1D47C168F2 /* Pods */,
+				D6C2523D7890D04AB8F2F651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1FFE501D43A51C001AB186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE4F1D43A51C001AB186 /* RSensibo.app */,
+				6E3F96081D463956005D2F42 /* ReactiveSensiboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1FFE511D43A51C001AB186 /* ReactiveSensibo */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE811D43F902001AB186 /* Login */,
+				6E1FFEA01D44287D001AB186 /* Pods */,
+				6E1FFE931D441600001AB186 /* Utils */,
+				6E1FFE891D43F971001AB186 /* Networking */,
+				6E1FFE7C1D43D5CA001AB186 /* Categories */,
+				6E1FFE551D43A51C001AB186 /* AppDelegate.h */,
+				6E1FFE561D43A51C001AB186 /* AppDelegate.m */,
+				6E1FFE7B1D43CC18001AB186 /* ReactiveSensibo-Prefix.pch */,
+				6E1FFE8E1D440E64001AB186 /* Constants.h */,
+				6E1FFE521D43A51C001AB186 /* Supporting Files */,
+			);
+			path = ReactiveSensibo;
+			sourceTree = "<group>";
+		};
+		6E1FFE521D43A51C001AB186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE5B1D43A51C001AB186 /* Main.storyboard */,
+				6E1FFE5E1D43A51C001AB186 /* Assets.xcassets */,
+				6E1FFE601D43A51C001AB186 /* LaunchScreen.storyboard */,
+				6E1FFE631D43A51C001AB186 /* Info.plist */,
+				6E1FFE531D43A51C001AB186 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E1FFE7C1D43D5CA001AB186 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE9C1D44179C001AB186 /* NSDictionary+ResponseObject.h */,
+				6E1FFE9D1D44179C001AB186 /* NSDictionary+ResponseObject.m */,
+				6E1FFE7D1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.h */,
+				6E1FFE7E1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.m */,
+				6E1FFE981D441664001AB186 /* NSString+EmailValidation.h */,
+				6E1FFE991D441664001AB186 /* NSString+EmailValidation.m */,
+				6E1FFEA81D443686001AB186 /* UIRefreshControl+RACCommandSupport.h */,
+				6E1FFEA91D443686001AB186 /* UIRefreshControl+RACCommandSupport.m */,
+				6E1FFEB21D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.h */,
+				6E1FFEB31D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.m */,
+				6E1FFEB61D45CD56001AB186 /* RLMObject+Background.h */,
+				6E1FFEB71D45CD56001AB186 /* RLMObject+Background.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6E1FFE811D43F902001AB186 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE821D43F902001AB186 /* LoginViewController.h */,
+				6E1FFE831D43F902001AB186 /* LoginViewController.m */,
+				6E1FFE841D43F902001AB186 /* LoginModel.h */,
+				6E1FFE851D43F902001AB186 /* LoginModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6E1FFE891D43F971001AB186 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE8F1D440F82001AB186 /* NetworkingManager.h */,
+				6E1FFE901D440F82001AB186 /* NetworkingManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6E1FFE931D441600001AB186 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFE941D441609001AB186 /* SUtils.h */,
+				6E1FFE951D441609001AB186 /* SUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6E1FFEA01D44287D001AB186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FFEA11D442890001AB186 /* PodsTableViewController.h */,
+				6E1FFEA21D442890001AB186 /* PodsTableViewController.m */,
+				6E1FFEA51D4434D4001AB186 /* PodsModel.h */,
+				6E1FFEA61D4434D4001AB186 /* PodsModel.m */,
+				6E1FFEAB1D45BDE2001AB186 /* PodTableViewCell.h */,
+				6E1FFEAC1D45BDE2001AB186 /* PodTableViewCell.m */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E3F96091D463956005D2F42 /* ReactiveSensiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3F960A1D463956005D2F42 /* LoginModelTests.m */,
+				6E85F2B61D464704007BEE9C /* PodsModelTests.m */,
+				6E3F960C1D463956005D2F42 /* Info.plist */,
+			);
+			path = ReactiveSensiboTests;
+			sourceTree = "<group>";
+		};
+		D6C2523D7890D04AB8F2F651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8A7A5AD7646AB5F04DA9FC /* libPods-ReactiveSensibo.a */,
+				34B98E9AE6313BF2F578F34B /* libPods-ReactiveSensiboTests.a */,
+				A0B221796C1B18BCCC5A7983 /* libPods-ReactiveSensiboTests2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1FFE4E1D43A51C001AB186 /* ReactiveSensibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1FFE711D43A51C001AB186 /* Build configuration list for PBXNativeTarget "ReactiveSensibo" */;
+			buildPhases = (
+				F194AF756836FC16CBD7B40A /* 📦 Check Pods Manifest.lock */,
+				6E1FFE4B1D43A51C001AB186 /* Sources */,
+				6E1FFE4C1D43A51C001AB186 /* Frameworks */,
+				6E1FFE4D1D43A51C001AB186 /* Resources */,
+				9F77750B72163C5E9A919A39 /* 📦 Embed Pods Frameworks */,
+				DA949E09D9ECC12F8AB1C737 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveSensibo;
+			productName = ReactiveSensibo;
+			productReference = 6E1FFE4F1D43A51C001AB186 /* RSensibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3F96071D463956005D2F42 /* ReactiveSensiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3F960F1D463956005D2F42 /* Build configuration list for PBXNativeTarget "ReactiveSensiboTests" */;
+			buildPhases = (
+				24467AA1DC8C070CD4815ECF /* 📦 Check Pods Manifest.lock */,
+				6E3F96041D463956005D2F42 /* Sources */,
+				6E3F96051D463956005D2F42 /* Frameworks */,
+				6E3F96061D463956005D2F42 /* Resources */,
+				DBCF26B63E213AC26987FF98 /* 📦 Embed Pods Frameworks */,
+				82AC9D94A544BA089104294E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3F960E1D463956005D2F42 /* PBXTargetDependency */,
+			);
+			name = ReactiveSensiboTests;
+			productName = ReactiveSensiboTests;
+			productReference = 6E3F96081D463956005D2F42 /* ReactiveSensiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1FFE471D43A51C001AB186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = valentinkovalski;
+				TargetAttributes = {
+					6E1FFE4E1D43A51C001AB186 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6E3F96071D463956005D2F42 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6E1FFE4E1D43A51C001AB186;
+					};
+				};
+			};
+			buildConfigurationList = 6E1FFE4A1D43A51C001AB186 /* Build configuration list for PBXProject "ReactiveSensibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E1FFE461D43A51C001AB186;
+			productRefGroup = 6E1FFE501D43A51C001AB186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1FFE4E1D43A51C001AB186 /* ReactiveSensibo */,
+				6E3F96071D463956005D2F42 /* ReactiveSensiboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1FFE4D1D43A51C001AB186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1FFE621D43A51C001AB186 /* LaunchScreen.storyboard in Resources */,
+				6E1FFE5F1D43A51C001AB186 /* Assets.xcassets in Resources */,
+				6E1FFE5D1D43A51C001AB186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3F96061D463956005D2F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24467AA1DC8C070CD4815ECF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82AC9D94A544BA089104294E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSensiboTests/Pods-ReactiveSensiboTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F77750B72163C5E9A919A39 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSensibo/Pods-ReactiveSensibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA949E09D9ECC12F8AB1C737 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSensibo/Pods-ReactiveSensibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCF26B63E213AC26987FF98 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSensiboTests/Pods-ReactiveSensiboTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F194AF756836FC16CBD7B40A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1FFE4B1D43A51C001AB186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1FFE871D43F902001AB186 /* LoginViewController.m in Sources */,
+				6E1FFEA31D442890001AB186 /* PodsTableViewController.m in Sources */,
+				6E1FFEAA1D443686001AB186 /* UIRefreshControl+RACCommandSupport.m in Sources */,
+				6E1FFE571D43A51C001AB186 /* AppDelegate.m in Sources */,
+				6E1FFEAD1D45BDE2001AB186 /* PodTableViewCell.m in Sources */,
+				6E1FFEB81D45CD56001AB186 /* RLMObject+Background.m in Sources */,
+				6E1FFE541D43A51C001AB186 /* main.m in Sources */,
+				6E1FFE9A1D441664001AB186 /* NSString+EmailValidation.m in Sources */,
+				6E1FFE961D441609001AB186 /* SUtils.m in Sources */,
+				6E1FFE881D43F902001AB186 /* LoginModel.m in Sources */,
+				6E1FFE7F1D43D5CA001AB186 /* UITextField+RACKeyboardSupport.m in Sources */,
+				6E1FFE911D440F82001AB186 /* NetworkingManager.m in Sources */,
+				6E1FFEA71D4434D4001AB186 /* PodsModel.m in Sources */,
+				6E1FFE9E1D44179C001AB186 /* NSDictionary+ResponseObject.m in Sources */,
+				6E1FFEB41D45CCED001AB186 /* RLMArray+LongestCommonSubsequence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3F96041D463956005D2F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3F960B1D463956005D2F42 /* LoginModelTests.m in Sources */,
+				6E85F2B71D464704007BEE9C /* PodsModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3F960E1D463956005D2F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E1FFE4E1D43A51C001AB186 /* ReactiveSensibo */;
+			targetProxy = 6E3F960D1D463956005D2F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E1FFE5B1D43A51C001AB186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1FFE5C1D43A51C001AB186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1FFE601D43A51C001AB186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1FFE611D43A51C001AB186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E1FFE6F1D43A51C001AB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = RSensibo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E1FFE701D43A51C001AB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSensibo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E1FFE721D43A51C001AB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875274BF5D1581AE720DF259 /* Pods-ReactiveSensibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveSensibo-Prefix.pch";
+				INFOPLIST_FILE = ReactiveSensibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vk.ReactiveSensibo;
+				PRODUCT_NAME = RSensibo;
+			};
+			name = Debug;
+		};
+		6E1FFE731D43A51C001AB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174B2768252570F9FFE22BBD /* Pods-ReactiveSensibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveSensibo-Prefix.pch";
+				INFOPLIST_FILE = ReactiveSensibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vk.ReactiveSensibo;
+				PRODUCT_NAME = RSensibo;
+			};
+			name = Release;
+		};
+		6E3F96101D463956005D2F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601458288BB4CB240A48B421 /* Pods-ReactiveSensiboTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveSensibo-Prefix.pch";
+				INFOPLIST_FILE = ReactiveSensiboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vk.ReactiveSensiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSensibo.app/ReactiveSensibo";
+			};
+			name = Debug;
+		};
+		6E3F96111D463956005D2F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4A4394A08C3655111195F7 /* Pods-ReactiveSensiboTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveSensibo-Prefix.pch";
+				INFOPLIST_FILE = ReactiveSensiboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vk.ReactiveSensiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSensibo.app/ReactiveSensibo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1FFE4A1D43A51C001AB186 /* Build configuration list for PBXProject "ReactiveSensibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1FFE6F1D43A51C001AB186 /* Debug */,
+				6E1FFE701D43A51C001AB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1FFE711D43A51C001AB186 /* Build configuration list for PBXNativeTarget "ReactiveSensibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1FFE721D43A51C001AB186 /* Debug */,
+				6E1FFE731D43A51C001AB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3F960F1D463956005D2F42 /* Build configuration list for PBXNativeTarget "ReactiveSensiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3F96101D463956005D2F42 /* Debug */,
+				6E3F96111D463956005D2F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E1FFE471D43A51C001AB186 /* Project object */;
+}

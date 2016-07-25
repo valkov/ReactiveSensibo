@@ -1,0 +1,21 @@
+//
+//  ReactiveSensibo.pch
+//  ReactiveSensibo
+//
+//  Created by valentinkovalski on 7/25/16.
+//  Copyright © 2016 valentinkovalski. All rights reserved.
+//
+
+#ifndef ReactiveSensibo_pch
+#define ReactiveSensibo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Constants.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <AFNetworking/AFNetworking.h>
+
+#endif /* ReactiveSensibo_pch */
