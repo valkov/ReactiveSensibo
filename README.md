@@ -41,3 +41,7 @@ PODS LIST
 
 ## Tests
 There are some unit tests as well as some integration tests. But as you can see the amount of tests isn't even close to 100% coverage, I needed more time to cover all the model and UI logic.
+
+## Test environment
+iPhone Simulator 9.3
+iPhone SE iOS 9.3.2
