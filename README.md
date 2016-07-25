@@ -10,7 +10,7 @@ You can deduce the API from the existing project. You can even reuse some of the
 Having a proper architecture and design is as important as making it work. UI and looks are unimportant.
 
 ## Explanation of MVVM pattern implementation
-I'm referring to the view controllers as views in that project. The LoginModel and PodsModel are view models(just find that names more suitable in the context) and the model itself is the Realm database.
+I'm referring to the view controllers as views in that project. The LoginModel and PodsModel are the view models(just find those names more suitable in the context) and the model itself is the Realm database.
 
 ## Why Reactive Cocoa
 In my opinion that would work better comparing to the current Sensibo implementation as it eliminates an entire set of bugs in UI logic(ex: Login button won't be enabled until email and password fields are validated and there is an internet connection.  Login command is only enabled when fields are validated. Login command is attached to the button and executed when button is pressed, network activity indicator is shown while command is executing and hides when completed. And that is just few lines of code).
